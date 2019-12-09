@@ -1,0 +1,70 @@
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Naruto vs. Sasuke</title>
+		<link href="https://fonts.googleapis.com/css?family=Bungee+Inline&display=swap" rel="stylesheet">
+		<link href="" rel="icon" type="image/x-icon" />
+		<link rel="stylesheet" href="Sasuke.css">
+	</head>
+	
+	<body>
+	<!--When image of Naruto is clicked the Akatsuki theme music will play-->
+		<audio src="music.mp3" id="music"></audio>
+		<div class="title">
+			<img src="Images/naruto_vs_sasuke_v1__mobile_game__by_dp1757_dck3frl-fullview.png" class="center">
+			<h1 onclick="reSet()" class="hvr-wobble-to-bottom-right "> Sasuke vs Naruto </h1>
+			<img src="Images/naruto_vs_sasuke_v1__mobile_game__by_dp1757_dck3frl-fullview (1).png" class="center1">
+		</div>
+		<!--Code for the top of the site which is about Naruto-->
+		<div class="main-row">
+			<div class="naru-sasuke">
+				<img src="Images/sixpaths.gif" class=" cursor1 image" onclick="changeImg()">
+			</div>
+			<div class="transformation-row">
+				<div class="final-row">
+					<div class="box orange hvr-bounce-in ">
+						<img src="Images/9cloak.gif" class="image cursor1 disappear" id="img1" onclick="changeImg1()">
+					</div>
+					<div class="box orange hvr-bounce-in ">
+						<img src="images/sage.gif" class="image cursor1 disappear" id="img2" onclick="changeImg2()">
+					</div>
+				</div>
+				<div class="final-row">
+					<div class="box orange hvr-bounce-in ">
+						<img src="Images/rasen.gif" class="image cursor1 disappear" id="img3" onclick="changeImg3();">
+					</div>
+					<div class="box orange hvr-bounce-in ">
+						<img src="Images/kuruma.gif" class="image cursor1 disappear" id="img4" onclick="pageRedirect()" id="Naruto" onclick="changeImg4()">
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--Code for the bottom of the site which is about Sasuke-->
+		<div class="main-row">
+			<div class="naru-sasuke1">
+				<img src="Images/rinnegan.gif" class="image cursor2" onclick="changeImg0()">
+			</div>
+			<div class="transformation-row">
+				<div class="final-row">
+					<div class="box blue hvr-bounce-in ">
+						<img src="Images/curse.gif" class="image cursor2 disappear" id="img5" onclick="changeImg5()">
+					</div>
+					<div class="box blue  hvr-bounce-in ">
+						<img src="Images/mangekyou.gif" class="image cursor2 disappear" id="img6" onclick="changeImg6();">
+					</div>
+				</div>
+				<div class="final-row">
+					<div class="box blue  hvr-bounce-in ">
+						<img src="Images/chidori1.gif" class="image cursor2 disappear" id="img7" onclick="changeImg7();">
+					</div>
+					<div class="box blue  hvr-bounce-in ">
+						<img src="Images/susano.gif" class="image cursor2 disappear" id="img8" onclick="pageRedirect()" id="Sasuke">
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>	

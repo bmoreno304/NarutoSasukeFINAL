@@ -1,0 +1,9 @@
+body {
+	 background-image: url("Images/konoha.jfif");
+	 cursor: url('data:image/x-icon;base64,AAACAAEAICACAAAAAAAwAQAAFgAAACgAAAAgAAAAQAAAAAEAAQAAAAAAgAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAJiYmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAAAwAAAAYAAAAEAAAYDAAAfwwAAMGGAAEAwgADAEIAAh5jAAIzIwACIyMAAiAjAAIgIgACMGIAAxnGAAMPjAADgBgAA8AwAAJ/4AACHwAAAngAAAPgAAADgAAAA/////////////////////////////////////////////5////8////+f////v//+fz//+A8///Pnn//v89//z/vf/94Zz//czc//3c3P/939z//d/d//3Pnf/85jn//PBz//x/5//8P8///YAf//3g///9h////B////x////8='), auto; 
+}
+
+.photo{
+	max-height:70%;
+	max-width:70%;
+}
