@@ -72,6 +72,11 @@ function addText () {
 	document.getElementById("text").innerHTML = "FRIENDSHIP!";
 	y.classList.add("photo");
 	w.play()
+	if (ignumber == igmax) {
+		ignumber = 0;
+	}
+	o.src = image1array[imgnumber];
+	imgnumber++;
 }
 // Reset Button
 function reSet(){
