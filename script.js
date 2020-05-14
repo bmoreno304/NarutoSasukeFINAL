@@ -11,6 +11,32 @@ var j = document.getElementById("img8");
 var y = document.getElementById("friend");
 var z = document.getElementById("music");
 var w = document.getElementById("music2");
+var o = document.getElementById("sakura");
+
+];
+var imgnumber = 0;
+var imgmax = 2;
+function changeThis(){
+	if (ignumber == igmax) {
+		ignumber = 0;
+	}
+	o.src = image1array[imgnumber];
+	imgnumber++;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Image of Naruto and Sasuke 
 function pageRedirect() {
