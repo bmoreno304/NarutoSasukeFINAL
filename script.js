@@ -12,7 +12,6 @@ var y = document.getElementById("friend");
 var z = document.getElementById("music");
 var w = document.getElementById("music2");
 
-
 // Image of Naruto and Sasuke 
 function pageRedirect() {
 	window.location.href="peace.html";
@@ -55,7 +54,6 @@ function addText () {
 	document.getElementById("text").innerHTML = "FRIENDSHIP!";
 	y.classList.add("photo");
 	w.play()
-	
 }
 // Reset Button
 function reSet(){
@@ -68,4 +66,3 @@ function reSet(){
 	i.classList.add("disappear");
 	j.classList.add("disappear");
 }
-					
