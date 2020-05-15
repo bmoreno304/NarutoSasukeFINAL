@@ -14,21 +14,6 @@ var w = document.getElementById("music2");
 var o = document.getElementById("sakura");
 
 
-var image1array = [
-	"images/brothers.gif",
-	"images/06ded9d854f305cb129762962a6518d5.jpg",
-
-];
-var imgnumber = 0;
-var imgmax = 2;
-function changeThis(){
-	if (ignumber == igmax) {
-		ignumber = 0;
-	}
-	o.src = image1array[imgnumber];
-	imgnumber++;
-}
-
 
 // Image of Naruto and Sasuke 
 function pageRedirect() {
