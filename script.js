@@ -52,6 +52,8 @@ j.classList.remove("disappear");
 }
 // Javascript function for "peace.html"
 function addText () {
+	document.getElementById("text").innerHTML = "FRIENDSHIP!";
+	y.classList.add("photo");
 	w.play()
 	
 }
