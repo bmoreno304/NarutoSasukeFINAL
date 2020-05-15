@@ -11,8 +11,6 @@ var j = document.getElementById("img8");
 var y = document.getElementById("friend");
 var z = document.getElementById("music");
 var w = document.getElementById("music2");
-var o = document.getElementById("sakura");
-
 
 
 // Image of Naruto and Sasuke 
@@ -55,11 +53,7 @@ j.classList.remove("disappear");
 // Javascript function for "peace.html"
 function addText () {
 	w.play()
-	if (ignumber == igmax) {
-		ignumber = 0;
-	}
-	o.src = image1array[imgnumber];
-	imgnumber++;
+	
 }
 // Reset Button
 function reSet(){
