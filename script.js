@@ -12,6 +12,7 @@ var y = document.getElementById("friend");
 var z = document.getElementById("music");
 var w = document.getElementById("music2");
 
+
 // Image of Naruto and Sasuke 
 function pageRedirect() {
 	window.location.href="peace.html";
@@ -65,4 +66,20 @@ function reSet(){
 	h.classList.add("disappear");
 	i.classList.add("disappear");
 	j.classList.add("disappear");
+}
+
+var value=1
+var value1=0
+
+function playAlert() {  
+	if(value==value1)
+		{
+			alert("== Sasukeeeeee!");
+		}
+} 
+
+
+function playValue() { 
+	value1++
+		
 }
