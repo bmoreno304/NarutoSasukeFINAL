@@ -68,4 +68,16 @@ function reSet(){
 	j.classList.add("disappear");
 }
 
+var value=1
+var value1=0
+
+
+function playValue() {
+value1++
+if(value==value1)
+{
+alert("== Sasukeeeeee!");
+}
+
+}
 
