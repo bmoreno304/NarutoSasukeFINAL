@@ -71,15 +71,12 @@ function reSet(){
 var value=1
 var value1=0
 
-function playAlert() {  
-	if(value==value1)
-		{
-			alert("== Sasukeeeeee!");
-		}
-} 
 
+function playValue() {
+value1++
+if(value==value1)
+{
+alert("== Sasukeeeeee!");
+}
 
-function playValue() { 
-	value1++
-		
 }
